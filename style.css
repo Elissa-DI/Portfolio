@@ -100,3 +100,104 @@ p{
     position: relative;
     left: 150px;
 }
+.btns button{
+    
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+    background: linear-gradient(to right, rgb(29, 29, 69), gray, black);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 8px 14px;
+    margin: 40px 5px;
+    letter-spacing: 2px;
+    transition: 1s ease-in-out;
+}
+.btns button:hover{
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: linear-gradient(to right, white, white, white);
+    color: black;
+
+    border: 1px solid linear-gradient(to right, rgb(29, 29, 69), gray, black);
+}
+.imgbox{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+/* .imgbox .img{
+    position: relative;
+    height: 100%;
+    width: calc(130% - 80px);
+    top: -100px;
+    right: 50px;
+}
+.me{
+    width: 140%;
+
+}
+.imgbox #splash{
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-35deg);
+    width: 160%;
+    filter: saturate(200%);
+    animation: animate 4s linear infinite; 
+}
+@keyframes animate{
+    50%{
+        top: 49%;
+        left: 51%;
+        width: 155%;
+    }
+} */
+.blob {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50% / 60%;
+    animation: blob 2s ease-in-out infinite;
+  }
+  .top {
+    float: right;
+    margin: -120px 200px 0px 0px;
+    z-index: -1;
+}
+.bottom {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    float: left;
+    margin: 0px 0px 500px -200px;
+    z-index: 1;
+}
+  @keyframes blob {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }  
+
+  .toggle {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    height: 60px;
+    border-radius: 50px;
+    transition: .4s ease;
+}
