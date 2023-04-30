@@ -39,5 +39,21 @@ codingBtn.addEventListener('click', function (){
 });
 
 
+const frontPDiv = document.querySelector('.frontP');
+const backPDiv = document.querySelector('.backP');
+const frontPBtn = document.querySelector('#othersBtn');
+const backPBtn = document.querySelector('#backBtn');
+
+frontPBtn.addEventListener('click', function (){
+  frontPDiv.classList.add('hide');
+  backPDiv.classList.remove('hide');
+  console.log('Others clicked');
+});
+backPBtn.addEventListener('click', function (){
+  backPDiv.classList.add('hide');
+  frontPDiv.classList.remove('hide');
+  console.log('back clicked');
+});
+
 
 
