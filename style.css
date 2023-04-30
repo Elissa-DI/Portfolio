@@ -300,3 +300,171 @@ input {
 .hide{
     display: none;
 }
+.skillsDiv{
+    margin-top: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skillsDiv .front{
+    /* border: 1px solid rgb(0, 0, 0); */
+    box-shadow: 0 0 2px;
+    width: 95%;
+    height: 600px;
+}
+.front img{
+    float: left;
+    width: 43%;
+    height: 86%;
+    object-fit: cover;
+}
+.front .right{
+    float: right;
+    width: 54%;
+    height: 86%;
+    margin-right: 10px;
+}
+.skillsDiv .back{
+    border: 1px solid black;
+    width: 95%;
+    height: 600px;
+}
+#extraBtn{
+  margin-top: 20px;
+}
+
+.free{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 180px;
+    background-color: rgb(0, 0, 0);
+    margin:30px 0;
+}
+.free a{
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.free a:hover{
+    background-color: white;
+    color: black;
+}
+.web{
+    float: left;
+    width: 30%;
+    height: 300px;
+    box-shadow: 0 0 3px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.design{
+    float: left;
+    width: 30%;
+    height: 300px;
+    box-shadow: 0 0 3px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.software{
+    float: left;
+    width: 30%;
+    height: 300px;
+    box-shadow: 0 0 3px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.projects{
+    width: 100%;
+    height: 500px;
+    border: 2px solid red;
+    margin-top: 300px;
+}
+.detectionApp{
+    float: left;
+    width: 30%;
+    height: 420px;
+    box-shadow: 0 0 2px;
+    margin-left: 20px;
+}
+.detectionApp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.weatherApp{
+    float: left;
+    width: 30%;
+    height: 420px;
+    box-shadow: 0 0 2px;
+    margin-left: 20px;
+}
+.weatherApp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.MovieApp{
+    float: left;
+    width: 30%;
+    height: 420px;
+    box-shadow: 0 0 2px;
+    margin-left: 20px;
+}
+.MovieApp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.backP {
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+}
+.backP > div{
+    box-shadow: 0 0 2px;
+    width: 32%;
+    height: 100%;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.blackJack{
+  float: left;
+  background: url(jack.png);
+}
+.todoApp{
+    float: left;
+    background: url(todo.png);
+}
+.quizApp{
+    float: left;
+    background: url(quiz.png);
+}
+.quoteGen{
+    float: left;
+    background: url(quote.png);
+}
+.tictac{
+    float: left;
+    background: url(tictac.png);
+}
+.urlshortener{
+    float: left;
+    background: url(url.png);
+}
+.alarm{
+    float: left;
+    background: url(alarm.png);
+}
