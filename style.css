@@ -11,12 +11,11 @@ body{
 }
 body.dark-mode {
     background-color: black;
-    color: white;
+    color: white !important;
   }
 .container{
     width: 100%;
     min-height: 100vh;
-    /* background-color: #f3f5f8; */
 }
 nav{
     display: flex;
@@ -274,18 +273,50 @@ input {
 .aboutDiv{
     width: 100%;
 }
+.aboutDiv h2{
+    font-weight: bold;
+    margin-left: 750px;
+}
 .aboutDiv .i{
     float: left;
     width: 30%;
     height: 550px;
     box-shadow: 0 0 2px;
     margin: 0 30px 0 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutDiv .i h2{
+    font-family: cursive;
+    margin: -40px 0 40px 0px;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    text-shadow: 0 0 4px black;
 }
 .aboutDiv .ii{
     float: left;
     width: 30%;
     height: 550px;
     box-shadow: 0 0 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutDiv .ii h2{
+    font-family: cursive;
+    margin: -40px 0 40px 0px;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    text-shadow: 0 0 4px black;
+}
+.ii span{
+    font-weight: bold;
+    color: black;
 }
 .aboutDiv .iii{
     margin-right: 25px;
@@ -293,6 +324,28 @@ input {
     width: 30%;
     height: 550px;
     box-shadow: 0 0 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutDiv .iii h2{
+    font-family: cursive;
+    margin: -40px 0 40px 0px;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    text-shadow: 0 0 4px black;
+}
+.iii .backend ion-icon{
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+}
+.iii .backend h4{
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 10px;
 }
 
 
@@ -311,6 +364,9 @@ input {
     box-shadow: 0 0 2px;
     width: 95%;
     height: 600px;
+}
+.front h1{
+    margin-left: 600px;
 }
 .front img{
     float: left;
@@ -387,8 +443,17 @@ input {
 .projects{
     width: 100%;
     height: 500px;
-    border: 2px solid red;
-    margin-top: 300px;
+    margin-top: 350px;
+    box-shadow: 0 0 1px;
+}
+.projects h2{
+    margin-left: 650px;
+    font-weight: bold;
+}
+.frontP a{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(4, 41, 69);
 }
 .detectionApp{
     float: left;
@@ -425,6 +490,13 @@ input {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+#othersBtn{
+    width: 90px;
+    background-color: blue;
+    margin-top: 380px;
+    border-radius: 3px;
+    height: 40px;
 }
 .backP {
     width: 100%;
@@ -467,4 +539,33 @@ input {
 .alarm{
     float: left;
     background: url(alarm.png);
+}
+
+
+.blog{
+    width: 100%;
+}
+.blog div{
+    box-shadow: 0 0 1px;
+}
+.blog .life{
+    width: 85%;
+}
+.life img{
+    float: left;
+    width: 40%;
+}
+.blog .gpt{
+    margin-top: 350px;
+    width: 85%;
+}
+.gpt img{
+    width: 40%;
+}
+.blog .copilot{
+    margin-top: 20px;
+    width: 85%;
+}
+.copilot img{
+    width: 40%;
 }
