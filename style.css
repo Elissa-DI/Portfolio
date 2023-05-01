@@ -543,28 +543,30 @@ input {
 
 
 .blog{
+    margin-top: 50px;
     width: 100%;
 }
 .blog div{
-    box-shadow: 0 0 1px;
+    box-shadow: 0 0 2px;
 }
 .blog .life{
-    width: 85%;
+    margin-left: 20px;
+    width: 90%;
 }
 .life img{
-    float: left;
     width: 40%;
 }
 .blog .gpt{
-    margin-top: 350px;
-    width: 85%;
+    margin-left: 20px;
+    width: 90%;
 }
 .gpt img{
     width: 40%;
 }
 .blog .copilot{
+    margin-left: 20px;
     margin-top: 20px;
-    width: 85%;
+    width: 90%;
 }
 .copilot img{
     width: 40%;
