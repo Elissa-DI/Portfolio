@@ -600,6 +600,7 @@ input {
     height: 200px;
     background-color: black;
     color: white !important;
+    display: flex;
 }
 .done .blob {
     background-color: rgb(170, 9, 95);
@@ -629,9 +630,19 @@ input {
     float: right;
     margin: 30px;
 }
+.did {
+    color: white;
+    width: 45%;
+    height: 20%;
+    margin-left: 200px;
+    /* background-color: white; */
+    padding-top: 5px;
+}
 .cert a{
     border: 0.1px solid #fff;
     color: white;
+    margin-right: 30px;
+    width: 180px;
 }
 .cert a:hover{
     border: 0.1px solid #fff;
