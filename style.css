@@ -83,6 +83,22 @@ h1{
     font-weight: 850;
     color: #3d535f;
 }
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    background: url(Stripes.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 40s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
 .multiText{
     color: #7f00ff;
     text-transform: capitalize;
@@ -546,6 +562,11 @@ input {
     margin-top: 50px;
     width: 100%;
 }
+.blog h2{
+    margin-left: 650px;
+    font-family: cursive;
+    font-size: bold;
+}
 .blog div{
     box-shadow: 0 0 2px;
 }
@@ -570,4 +591,129 @@ input {
 }
 .copilot img{
     width: 40%;
+}
+
+
+.done{
+    margin: 30px 0;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white !important;
+}
+.done .blob {
+    background-color: rgb(170, 9, 95);
+    width: 200px;
+    height: 200px;
+    border-radius: 50% / 60%;
+    animation: blobl 2s ease-in-out infinite;
+    transition: 2s ease-in-out;
+  }
+  @keyframes blobl {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.9);
+      background-color: blue;
+    }
+    100% {
+      transform: scale(1);
+      background-color: #7f00ff;
+    }
+  }  
+.done .text{
+    margin-left: 300px;
+}
+.cert {
+    float: right;
+    margin: 30px;
+}
+.cert a{
+    border: 0.1px solid #fff;
+    color: white;
+}
+.cert a:hover{
+    border: 0.1px solid #fff;
+    box-shadow: 0 0 2px #fff;
+    color: #000;
+    background-color: white;
+}
+
+.contact{
+    margin-top: 20px;
+    width: 100%;
+}
+.contact h2{
+    font-family: cursive;
+    margin-left: 650px;
+    font-weight: bold;
+}
+.sendEmail{
+    float: left;
+    width: 60%;
+    height: 430px;
+    box-shadow: 0 0 4px;
+    margin: 30px;
+}
+.lastContact{
+    margin: 28px;
+    float: left;
+    width: 30%;
+    height: 450px;
+    box-shadow: 0 0 4px;
+    display: grid;
+    padding-top: 10px;
+}
+.lastContact .in{
+    margin: 20px 0px 0px 110px;
+}
+.lIcons{
+    width: 100%;
+    
+}
+.lIcons ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .lIcons li {
+    margin: 0 10px;
+  }
+  
+  .lIcons a {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+  }
+  .lIcons ion-icon {
+    font-size: 24px;
+  }
+  
+
+
+
+.sendEmail #name{
+    float: left;
+    width: 48%;
+}
+.sendEmail #email{
+    float: left;
+    width: 49%;
+}
+.sendEmail #subject{
+    width: 98%;
+}
+/* #message{
+    margin-left: px;
+} */
+.sendEmail #submit{
+    width: 96%;
+}
+
+.lastContact span{
+    font-weight: bold;
+    color: rgb(13, 13, 13);
 }
