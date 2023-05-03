@@ -549,11 +549,9 @@ input {
 }
 .quoteGen{
     float: left;
-    background: url(quote.png);
 }
 .tictac{
     float: left;
-    background: url(tictac.png);
 }
 .urlshortener{
     float: left;
