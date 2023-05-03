@@ -438,6 +438,10 @@ input {
     box-shadow: 0 0 3px;
     margin-left: 20px;
     border-radius: 5px;
+    background: url(web.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+
 }
 .design{
     float: left;
@@ -446,6 +450,9 @@ input {
     box-shadow: 0 0 3px;
     margin-left: 20px;
     border-radius: 5px;
+    background: url(design.png) no-repeat;
+    background-size: cover;
+    color: white;
 }
 .software{
     float: left;
@@ -454,6 +461,9 @@ input {
     box-shadow: 0 0 3px;
     margin-left: 20px;
     border-radius: 5px;
+    background: url(sod.jpg) no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 .projects{
