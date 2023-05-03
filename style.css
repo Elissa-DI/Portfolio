@@ -540,15 +540,12 @@ input {
 }
 .blackJack{
   float: left;
-  background: url(jack.png);
 }
 .todoApp{
     float: left;
-    background: url(todo.png);
 }
 .quizApp{
     float: left;
-    background: url(quiz.png);
 }
 .quoteGen{
     float: left;
