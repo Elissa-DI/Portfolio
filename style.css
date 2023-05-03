@@ -555,11 +555,9 @@ input {
 }
 .urlshortener{
     float: left;
-    background: url(url.png);
 }
 .alarm{
     float: left;
-    background: url(alarm.png);
 }
 
 
